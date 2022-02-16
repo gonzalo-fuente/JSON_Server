@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node ./server/server.js",
+    "create-db": "node ./db/faker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.6"
+  }
+}
